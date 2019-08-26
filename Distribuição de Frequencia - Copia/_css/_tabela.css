@@ -1,0 +1,17 @@
+#resposta{
+    margin: 50px auto 10px auto;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+#resposta td{
+    border: 1px solid black;
+    width: 150px;
+}
+#resposta tbody{
+    font-weight: bold;
+}
+#tipoD{
+    margin: 0px auto 5px auto;
+    background-color: rgb(140, 141, 148);
+    color: white;
+}

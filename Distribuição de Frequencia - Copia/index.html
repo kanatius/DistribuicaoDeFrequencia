@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <header>
+        <meta charset="UTF8">
+        <script src="_js/tabelaDistribuicaoDeFrequencia.js"></script>
+        <link rel="stylesheet" href="_css/_tabela.css">
+    </header>
+    <body>
+        <div style="text-align: center">
+            <h2>Insira os valores separados por virgula</h2>
+            <textarea id="valores" rows="10" cols="40"></textarea>
+            <br/>
+            <table id="tipoD">
+                <tr>
+                    <td><label for="numeros">Numérico</label></td>
+                    <td><input type="radio" id="numeros" name="tipoDeDado" value="numero" checked></td>
+                </tr>
+                <tr>    
+                    <br/>
+                    <td><label for="textos">Textual </label></td> 
+                    <td><input type="radio" id="textos" name="tipoDeDado" value="texto"></td>
+                    <br/>
+                </tr>
+            </table>
+            <button onclick="montarTabela()">Gerar Tabela</button>
+            
+            <table id="resposta">
+                <tr>
+                    <td>j</td> <td>Classe</td><td>Fj</td> <td>Fj'</td> <td>fj</td> <td>fj'</td> <td>cj</td>
+                </tr>
+            </table>
+    </div>
+
+
+    </body>
+</html>
